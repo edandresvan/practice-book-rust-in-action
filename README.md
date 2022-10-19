@@ -13,4 +13,8 @@ The original code repository is also located [here in GitHub](https://github.com
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-These files are my own practice following the book lessons. However, the original copyright belongs to Manning Books.
+The files in this repository are my own practice following the book lessons.s 
+
+However, the original copyright belongs to Manning Books.
+
+McNamara, Tim. 2021. Rust in Action. New York, NY: Manning Publications. ISBN: 9781617294556
