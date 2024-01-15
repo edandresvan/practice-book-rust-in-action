@@ -1,0 +1,52 @@
+[package]
+name = "ch05"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "int-vs-int"
+path = "src/int-vs-int.rs"
+
+[[bin]]
+name = "f32-as-u32"
+path = "src/f32-as-u32.rs"
+
+[[bin]]
+name = "to-oblivion"
+path = "src/to-oblivion.rs"
+
+[[bin]]
+name = "impossible-addition"
+path = "src/impossible-addition.rs"
+
+[[bin]]
+name = "endianness"
+path = "src/endianness.rs"
+
+[[bin]]
+name = "visualizing-f32"
+path = "src/visualizing-f32.rs"
+
+[[bin]]
+name = "q7"
+path = "src/q7.rs"
+
+[[bin]]
+name = "u8-to-mock-rand"
+path = "src/u8-to-mock-rand.rs"
+
+[[bin]]
+name = "cpu-1"
+path = "src/cpu-1.rs"
+
+[[bin]]
+name = "cpu-2"
+path = "src/cpu-2.rs"
+
+[[bin]]
+name = "cpu-3"
+path = "src/cpu-3.rs"
+
+[dependencies]

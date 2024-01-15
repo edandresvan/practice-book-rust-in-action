@@ -1,0 +1,40 @@
+[package]
+name = "ch04"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "check-sats-1"
+path = "src/check-sats-1.rs"
+
+[[bin]]
+name = "check-sats-2"
+path = "src/check-sats-2.rs"
+
+[[bin]]
+name = "check-sats-3"
+path = "src/check-sats-3.rs"
+
+[[bin]]
+name = "sat-mailbox"
+path = "src/sat-mailbox.rs"
+
+[[bin]]
+name = "short-lived-strategy"
+path = "src/short-lived-strategy.rs"
+
+[[bin]]
+name = "check-sats-clone-and-copy-traits"
+path = "src/check-sats-clone-and-copy-traits.rs"
+
+[[bin]]
+name = "rc-groundstation"
+path = "src/rc-groundstation.rs"
+
+[[bin]]
+name = "rc-refcell-groundstation"
+path = "src/rc-refcell-groundstation.rs"
+
+[dependencies]
