@@ -1,0 +1,53 @@
+[package]
+name = "ch06"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "pointer-intro-1"
+path = "src/pointer-intro-1.rs"
+
+[[bin]]
+name = "pointer-intro-2"
+path = "src/pointer-intro-2.rs"
+
+[[bin]]
+name = "pointer-intro-3"
+path = "src/pointer-intro-3.rs"
+
+[[bin]]
+name = "raw-pointer-1"
+path = "src/raw-pointer-1.rs"
+
+[[bin]]
+name = "raw-pointer-2"
+path = "src/raw-pointer-2.rs"
+
+[[bin]]
+name = "heap-via-box"
+path = "src/heap-via-box.rs"
+
+[[bin]]
+name = "particles"
+path = "src/particles.rs"
+
+[[bin]]
+name = "memscan-1"
+path = "src/memscan-1.rs"
+
+[[bin]]
+name = "memscan-2"
+path = "src/memscan-2.rs"
+
+[[bin]]
+name = "memscan-3"
+path = "src/memscan-3.rs"
+
+
+[dependencies]
+rand = { version = "~0.8.5" }
+piston_window = { version = "~0.131.0" }
+piston2d-graphics = { version = "~0.44.0" }
